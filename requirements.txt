@@ -1,0 +1,19 @@
+# --- Core Agent Framework ---
+google-adk==1.14.0
+
+google-cloud-datastore==2.23.0
+
+# --- LLM + Tools ---
+langchain==0.3.26
+langchain-community==0.3.27
+wikipedia==1.4.0
+
+# --- API Layer ---
+fastapi
+uvicorn
+
+# --- Environment ---
+python-dotenv
+
+# --- Optional (clean structure, small size) ---
+pydantic
